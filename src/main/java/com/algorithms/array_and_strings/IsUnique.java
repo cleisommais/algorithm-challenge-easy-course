@@ -1,6 +1,4 @@
-package com.algorithm.array_and_strings;
-
-import java.util.Optional;
+package com.algorithms.array_and_strings;
 
 public class IsUnique {
 

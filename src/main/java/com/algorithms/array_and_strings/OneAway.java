@@ -1,4 +1,4 @@
-package com.algorithm.array_and_strings;
+package com.algorithms.array_and_strings;
 
 public class OneAway {
     public boolean isOneEdit(String a, String b) {

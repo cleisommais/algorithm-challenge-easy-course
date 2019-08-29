@@ -1,4 +1,4 @@
-package com.algorithm.array_and_strings;
+package com.algorithms.array_and_strings;
 
 public class StringCompression {
     public String compress(String str) {

@@ -1,9 +1,7 @@
-package com.algorithm.array_and_strings;
+package com.algorithms.array_and_strings;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class IsUniqueTest {
 

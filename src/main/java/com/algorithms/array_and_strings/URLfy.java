@@ -1,4 +1,4 @@
-package com.algorithm.array_and_strings;
+package com.algorithms.array_and_strings;
 
 public class URLfy {
     public String replace(char[] str, int strLength) {

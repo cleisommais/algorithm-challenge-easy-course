@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="Rem">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/linked_list/RemoveDuplicateItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/linked_list/RemoveDuplicateItemsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/algorithm-challenge-easy-course-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.array.samples.ArrayAlgorithmTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.array.samples.ArrayAlgorithmTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/CheckPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/CheckPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/IsUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/IsUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/OneAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/OneAway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/RotateMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/RotateMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/StringCompression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/StringRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/StringRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/URLfy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/URLfy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/ZeroMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/ZeroMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/CheckPermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/CheckPermutationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/IsUniqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/IsUniqueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/OneAwayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/OneAwayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/RotateMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/RotateMatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/StringCompressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/StringCompressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/StringRotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/StringRotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/URLfyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/URLfyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/ZeroMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/ZeroMatrixTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +67,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/algorithms" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="copyright.filetypes.JAVA" />
@@ -65,6 +76,13 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.algorithm.array_and_strings" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.algorithms.array_and_strings" />
+      <recent name="com.algorithms.linked_list" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cleis\OneDrive\Documents\Estia courses projects\algorithm-challenge-easy-course\src\test\java\com\algorithm\array_and_strings" />
       <recent name="C:\Users\cleis\OneDrive\Documents\Estia courses projects\algorithm-challenge-easy-course\src\test" />
@@ -72,10 +90,8 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cxf111\Cleison_development_env\projects\algorithm-challenge-easy-course" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.algorithms.linked_list" />
       <recent name="com.algorithm.array_and_strings" />
     </key>
   </component>
@@ -91,8 +107,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringRotationTest.isSubstringFromSubstring">
-    <configuration name="RotateMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RemoveDuplicateItemsTest.removeDuplicates">
+    <configuration name="CheckPermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +117,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithm.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.array_and_strings.RotateMatrixTest" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.array_and_strings.CheckPermutationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicateItemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.linked_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithms.linked_list" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.linked_list.RemoveDuplicateItemsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicateItemsTest.removeDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.linked_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithms.linked_list" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.linked_list.RemoveDuplicateItemsTest" />
+      <option name="METHOD_NAME" value="removeDuplicates" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,37 +185,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.array_and_strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithm.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.array_and_strings.ZeroMatrixTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZeroMatrixTest.applyZeroToRowAndColumn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.array_and_strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithm.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.array_and_strings.ZeroMatrixTest" />
-      <option name="METHOD_NAME" value="applyZeroToRowAndColumn" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="algorithm-challenge-easy-course" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -196,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveDuplicateItemsTest.removeDuplicates" />
+        <item itemvalue="JUnit.RemoveDuplicateItemsTest" />
+        <item itemvalue="JUnit.CheckPermutationTest" />
         <item itemvalue="JUnit.StringRotationTest.isSubstringFromSubstring" />
         <item itemvalue="JUnit.StringRotationTest" />
-        <item itemvalue="JUnit.ZeroMatrixTest.applyZeroToRowAndColumn" />
-        <item itemvalue="JUnit.ZeroMatrixTest" />
-        <item itemvalue="JUnit.RotateMatrixTest" />
       </list>
     </recent_temporary>
   </component>
