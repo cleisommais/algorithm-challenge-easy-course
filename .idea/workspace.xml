@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/JumpingOnTheClouds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/JumpingOnTheCloudsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/FindDuplicatesInArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/FindDuplicatesInArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/JumpingOnTheClouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/JumpingOnTheClouds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/JumpingOnTheCloudsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/JumpingOnTheCloudsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/algorithms" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="copyright.filetypes.JAVA" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -244,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568093248671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Jumping on the Clouds.">
+      <created>1568094118201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568094118201</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -285,7 +290,8 @@
     <MESSAGE value="Added new array and strings algorithms." />
     <MESSAGE value="Reorganized the packages and add the test and class to remove the dublicate items in a linkedlist" />
     <MESSAGE value="Added new algorithm challenges." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new algorithm challenges." />
+    <MESSAGE value="Added Jumping on the Clouds." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Jumping on the Clouds." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
