@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/RepeatedString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/RepeatedStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/JumpingOnTheClouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/JumpingOnTheClouds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/JumpingOnTheCloudsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/JumpingOnTheCloudsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/algorithms" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -91,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JumpingOnTheCloudsTest">
+  <component name="RunManager" selected="JUnit.RepeatedStringTest">
     <configuration name="CountingValleysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
@@ -107,21 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicatesInArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.FindDuplicatesInArrayTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JumpingOnTheCloudsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
@@ -132,6 +117,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
       <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.JumpingOnTheCloudsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatedStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.RepeatedStringTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepeatedStringTest" />
         <item itemvalue="JUnit.JumpingOnTheCloudsTest" />
         <item itemvalue="JUnit.CountingValleysTest" />
         <item itemvalue="JUnit.SockMerchantTest" />
         <item itemvalue="JUnit.SumTwoItemsTest" />
-        <item itemvalue="JUnit.FindDuplicatesInArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568094118201</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Jumping on the Clouds.">
+      <created>1568143809468</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568143809468</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
