@@ -13,8 +13,9 @@ public class RemoveDuplicateItemsTest {
         linkedList.add(13);
         linkedList.add(1);
         linkedList.add(8);
-        linkedList.add(1);
+        linkedList.add(8);
         linkedList.add(3);
+        linkedList.add(13);
         LinkedList<Integer> linkedListResult = new LinkedList<Integer>();
         linkedListResult.add(13);
         linkedListResult.add(1);

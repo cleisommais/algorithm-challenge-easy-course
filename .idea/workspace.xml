@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="Rem">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/linked_list/RemoveDuplicateItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/linked_list/RemoveDuplicateItemsTest.java" afterDir="false" />
+    <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/CountingValleys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/FindDuplicatesInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/SockMerchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/SumTwoItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/linked_list/DeleteMiddleNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/linked_list/LinkedListPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/linked_list/ReturnKth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/linked_list/SumLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/CountingValleysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/FindDuplicatesInArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/SockMerchantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/SumTwoItemsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/linked_list/DeleteMiddleNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/linked_list/LinkedListPalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/linked_list/ReturnKthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/linked_list/SumListsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/LinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/CheckPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/CheckPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/IsUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/IsUnique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/OneAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/OneAway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/RotateMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/RotateMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/StringCompression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/StringRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/StringRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/URLfy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/URLfy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/array_and_strings/ZeroMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/ZeroMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/CheckPermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/CheckPermutationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/IsUniqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/IsUniqueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/OneAwayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/OneAwayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/RotateMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/RotateMatrixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/StringCompressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/StringCompressionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/StringRotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/StringRotationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/URLfyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/URLfyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithm/array_and_strings/ZeroMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/ZeroMatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithms/linked_list/RemoveDuplicateItemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/linked_list/RemoveDuplicateItemsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,6 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/algorithms" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -74,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.algorithms.utils" />
       <recent name="com.algorithm.array_and_strings" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -91,6 +92,7 @@
       <recent name="C:\Users\cxf111\Cleison_development_env\projects\algorithm-challenge-easy-course" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.algorithms.array_and_strings" />
       <recent name="com.algorithms.linked_list" />
       <recent name="com.algorithm.array_and_strings" />
     </key>
@@ -107,80 +109,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveDuplicateItemsTest.removeDuplicates">
-    <configuration name="CheckPermutationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CountingValleysTest">
+    <configuration name="CountingValleysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.array_and_strings.*" />
+          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algorithm.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.array_and_strings.CheckPermutationTest" />
+      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.CountingValleysTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateItemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindDuplicatesInArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.linked_list.*" />
+          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.linked_list" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.linked_list.RemoveDuplicateItemsTest" />
+      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.FindDuplicatesInArrayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateItemsTest.removeDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.linked_list.*" />
+          <option name="PATTERN" value="com.algorithms.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.linked_list" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.linked_list.RemoveDuplicateItemsTest" />
-      <option name="METHOD_NAME" value="removeDuplicates" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringRotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.array_and_strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithm.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.array_and_strings.StringRotationTest" />
+      <option name="PACKAGE_NAME" value="com.algorithms.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.LinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringRotationTest.isSubstringFromSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SockMerchantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.array_and_strings.*" />
+          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algorithm.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.array_and_strings.StringRotationTest" />
-      <option name="METHOD_NAME" value="isSubstringFromSubstring" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.SockMerchantTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTwoItemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.SumTwoItemsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RemoveDuplicateItemsTest.removeDuplicates" />
-        <item itemvalue="JUnit.RemoveDuplicateItemsTest" />
-        <item itemvalue="JUnit.CheckPermutationTest" />
-        <item itemvalue="JUnit.StringRotationTest.isSubstringFromSubstring" />
-        <item itemvalue="JUnit.StringRotationTest" />
+        <item itemvalue="JUnit.CountingValleysTest" />
+        <item itemvalue="JUnit.SockMerchantTest" />
+        <item itemvalue="JUnit.SumTwoItemsTest" />
+        <item itemvalue="JUnit.FindDuplicatesInArrayTest" />
+        <item itemvalue="JUnit.LinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567112043155</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Reorganized the packages and add the test and class to remove the dublicate items in a linkedlist">
+      <created>1567114657413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567114657413</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -285,7 +292,8 @@
     <MESSAGE value="Add the first algorithm solutions to Array and String problems." />
     <MESSAGE value="Added array and strings algorithms." />
     <MESSAGE value="Added new array and strings algorithms." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new array and strings algorithms." />
+    <MESSAGE value="Reorganized the packages and add the test and class to remove the dublicate items in a linkedlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganized the packages and add the test and class to remove the dublicate items in a linkedlist" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
