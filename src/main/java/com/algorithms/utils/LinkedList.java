@@ -1,82 +1,87 @@
 package com.algorithms.utils;
 
-import com.sun.istack.internal.NotNull;
-
-import java.util.HashSet;
-
 public class LinkedList<T> {
-    transient int size = 0;
-    transient private Node<T> first;
+    public Node head;
+    public int size;
 
-    public boolean isExist(@NotNull T item) {
-        return node(item) != null;
+    public LinkedList() {
+        head = null;
+        size = 0;
     }
 
-    public LinkedList<T> deleteDublicates() {
-        HashSet<T> set = new HashSet<>();
-        LinkedList<T> list = new LinkedList<>();
-        Node<T> first = this.first;
-        Node<T> previous = null;
-        while (first != null) {
-            if (set.contains(first.item)) {
-                previous.next = first.next;
-            } else {
-                set.add(first.item);
-                previous = first;
-            }
-            first = first.next;
+    public void insertAtEnd(T data) {
+        if (isEmpty()) {
+            insertAtHead(data);
+            return;
         }
-        for (T t : set) {
-            list.push(t);
-        }
-        return list;
-    }
+        Node newNode = new Node();
+        newNode.data = data;
+        newNode.next = null;
 
-    public Node<T> getKthToLast(int k) {
-        Node<T> node = first;
-        int len = 0;
-        while (node != null) {
-            len++;
-            node = node.next;
+        Node last = head;
+        while (last.next != null) {
+            last = last.next;
         }
-        if (len < k)
-            return null;
-        node = first;
-        for (int i = 1; i < len - k + 1; i++) {
-            System.out.println(node.item);
-            node = node.next;
-        }
-
-        return node;
-    }
-
-    private Node<T> node(@NotNull T item) {
-        Node<T> node = first;
-        while (node != null) {
-            if (item.equals(node.item)) {
-                return node;
-            }
-            node = node.next;
-        }
-        return null;
-    }
-
-    public void push(@NotNull T item) {
+        last.next = newNode;
         size++;
-        Node<T> newNode = new Node<>(item, size);
-        newNode.next = first;
-        first = newNode;
     }
 
-    static class Node<T> {
-        T item;
-        Node<T> next;
-        int index;
+    public void insertAtHead(T data) {
+        Node newNode = new Node();
+        newNode.data = data;
+        newNode.next = head;
+        head = newNode;
+        size++;
+    }
 
-        Node(T element, int index) {
-            this.item = element;
-            this.next = null;
-            this.index = index;
+    public void delete(T data) {
+        if (isEmpty()) {
+            return;
         }
+        Node currentNode = head;
+        Node prevNode = null;
+        while (currentNode != null) {
+            if (currentNode.data.equals(data)) {
+                prevNode.next = currentNode.next;
+                return;
+            }
+            prevNode = currentNode;
+            currentNode = currentNode.next;
+        }
+    }
+
+    public boolean search(T data) {
+        Node currentNode = head;
+        while (currentNode != null) {
+            if (currentNode.data.equals(data)) {
+                return true;
+            }
+            currentNode = currentNode.next;
+        }
+        return false;
+    }
+
+    // Helper Function to printList
+    public void printList() {
+        if (isEmpty()) {
+            System.out.println("List is Empty!");
+            return;
+        }
+        Node temp = head;
+        System.out.print("List : ");
+        while (temp.next != null) {
+            System.out.print(temp.data.toString() + " -> ");
+            temp = temp.next;
+        }
+        System.out.println(temp.data.toString() + " -> null");
+    }
+
+    public boolean isEmpty() {
+        return head == null;
+    }
+
+    public class Node {
+        public T data;
+        public Node next;
     }
 }

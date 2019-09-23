@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/LeftRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/LeftRotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/EightHouses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/NewYearChaos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/EightHousesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/GCDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/NewYearChaosTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +97,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LeftRotationTest.rotLeft">
-    <configuration name="CountingValleysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListTest.delete">
+    <configuration name="EightHousesTest.cellCompete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
@@ -101,44 +107,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.CountingValleysTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JumpingOnTheCloudsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.JumpingOnTheCloudsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeftRotationTest.rotLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.LeftRotationTest" />
-      <option name="METHOD_NAME" value="rotLeft" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.EightHousesTest" />
+      <option name="METHOD_NAME" value="cellCompete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GCDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
@@ -147,23 +123,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.RepeatedStringTest" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.GCDTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDArrayDSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
+          <option name="PATTERN" value="com.algorithms.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.TwoDArrayDSTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.algorithms.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.LinkedListTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithms.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.LinkedListTest" />
+      <option name="METHOD_NAME" value="push" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithms.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.LinkedListTest" />
+      <option name="METHOD_NAME" value="search" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LeftRotationTest.rotLeft" />
-        <item itemvalue="JUnit.TwoDArrayDSTest" />
-        <item itemvalue="JUnit.RepeatedStringTest" />
-        <item itemvalue="JUnit.JumpingOnTheCloudsTest" />
-        <item itemvalue="JUnit.CountingValleysTest" />
+        <item itemvalue="JUnit.LinkedListTest.delete" />
+        <item itemvalue="JUnit.LinkedListTest.search" />
+        <item itemvalue="JUnit.LinkedListTest.push" />
+        <item itemvalue="JUnit.GCDTest" />
+        <item itemvalue="JUnit.EightHousesTest.cellCompete" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568226108165</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added and finished - Left rotate">
+      <created>1568230327130</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1568230327130</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -323,7 +339,8 @@
     <MESSAGE value="Added Repeated string 'a'." />
     <MESSAGE value="Added 2D Array - DS" />
     <MESSAGE value="Finished 2D Array - DS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished 2D Array - DS" />
+    <MESSAGE value="Added and finished - Left rotate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and finished - Left rotate" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
