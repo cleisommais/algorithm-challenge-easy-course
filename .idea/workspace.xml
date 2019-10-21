@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/GraphChallenges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/NestedArrayToFlatted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/queue_stack/QueueStackChallenges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/QueueWithStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/TwoStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/NestedArrayToFlattedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/queue_stack/QueueStackChallengesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/graph/GraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/tree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/tree/NodeTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/tree/BinarySearchTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -77,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.algorithms.tree" />
       <recent name="com.algorithms.utils.graph" />
       <recent name="com.algorithms.queue_stack" />
       <recent name="com.algorithms.utils" />
@@ -114,7 +98,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GraphTest">
+  <component name="RunManager" selected="JUnit.BinarySearchTreeTest.add">
+    <configuration name="BinarySearchTreeTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithms.tree" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.tree.BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
@@ -177,21 +177,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.StackTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="algorithm-challenge-easy-course" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -218,20 +203,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StackTest" />
       <item itemvalue="JUnit.QueueStackChallengesTest" />
       <item itemvalue="JUnit.QueueStackChallengesTest.testReverseKQueue" />
       <item itemvalue="JUnit.QueueStackChallengesTest.queueUsingStackTest" />
       <item itemvalue="JUnit.GraphTest" />
       <item itemvalue="Maven.algorithm-challenge-easy-course" />
+      <item itemvalue="JUnit.BinarySearchTreeTest.add" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchTreeTest.add" />
         <item itemvalue="JUnit.GraphTest" />
         <item itemvalue="JUnit.QueueStackChallengesTest.queueUsingStackTest" />
         <item itemvalue="JUnit.QueueStackChallengesTest.testReverseKQueue" />
         <item itemvalue="JUnit.QueueStackChallengesTest" />
-        <item itemvalue="JUnit.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +241,7 @@
       <workItem from="1570771219485" duration="2661000" />
       <workItem from="1570872904536" duration="130000" />
       <workItem from="1570880537831" duration="654000" />
+      <workItem from="1571634970984" duration="2442000" />
     </task>
     <task id="LOCAL-00001" summary="Added array and strings algorithms.">
       <created>1566860229371</created>
@@ -334,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569217931779</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Working with linked list">
+      <created>1571635035401</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571635035401</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -388,7 +381,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/algorithms/GraphChallenges.java</url>
-          <line>88</line>
+          <line>134</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
