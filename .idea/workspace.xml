@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/EightHouses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/NewYearChaos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/EightHousesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/GCDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/NewYearChaosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/GraphChallenges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/NestedArrayToFlatted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/queue_stack/QueueStackChallenges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/QueueWithStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/TwoStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/NestedArrayToFlattedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/queue_stack/QueueStackChallengesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/StackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/graph/GraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/LinkedList.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/utils/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +32,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../algorithm-challenge-easy-course\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,10 +73,12 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/algorithms" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.algorithms.utils.graph" />
+      <recent name="com.algorithms.queue_stack" />
       <recent name="com.algorithms.utils" />
       <recent name="com.algorithm.array_and_strings" />
     </key>
@@ -97,71 +114,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.delete">
-    <configuration name="EightHousesTest.cellCompete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GraphTest">
+    <configuration name="GraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
+          <option name="PATTERN" value="com.algorithms.utils.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.EightHousesTest" />
-      <option name="METHOD_NAME" value="cellCompete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GCDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.GCDTest" />
+      <option name="PACKAGE_NAME" value="com.algorithms.utils.graph" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.graph.GraphTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueStackChallengesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.utils.*" />
+          <option name="PATTERN" value="com.algorithms.queue_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.LinkedListTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="PACKAGE_NAME" value="com.algorithms.queue_stack" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.queue_stack.QueueStackChallengesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueStackChallengesTest.queueUsingStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.queue_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithms.queue_stack" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.queue_stack.QueueStackChallengesTest" />
+      <option name="METHOD_NAME" value="queueUsingStackTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueStackChallengesTest.testReverseKQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.utils.*" />
+          <option name="PATTERN" value="com.algorithms.queue_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.LinkedListTest" />
-      <option name="METHOD_NAME" value="push" />
+      <option name="PACKAGE_NAME" value="com.algorithms.queue_stack" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.queue_stack.QueueStackChallengesTest" />
+      <option name="METHOD_NAME" value="testReverseKQueue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
@@ -170,9 +186,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithms.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.LinkedListTest" />
-      <option name="METHOD_NAME" value="search" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.StackTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,13 +217,21 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.StackTest" />
+      <item itemvalue="JUnit.QueueStackChallengesTest" />
+      <item itemvalue="JUnit.QueueStackChallengesTest.testReverseKQueue" />
+      <item itemvalue="JUnit.QueueStackChallengesTest.queueUsingStackTest" />
+      <item itemvalue="JUnit.GraphTest" />
+      <item itemvalue="Maven.algorithm-challenge-easy-course" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTest.delete" />
-        <item itemvalue="JUnit.LinkedListTest.search" />
-        <item itemvalue="JUnit.LinkedListTest.push" />
-        <item itemvalue="JUnit.GCDTest" />
-        <item itemvalue="JUnit.EightHousesTest.cellCompete" />
+        <item itemvalue="JUnit.GraphTest" />
+        <item itemvalue="JUnit.QueueStackChallengesTest.queueUsingStackTest" />
+        <item itemvalue="JUnit.QueueStackChallengesTest.testReverseKQueue" />
+        <item itemvalue="JUnit.QueueStackChallengesTest" />
+        <item itemvalue="JUnit.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +246,16 @@
       <option name="presentableId" value="Default" />
       <updated>1560405039263</updated>
       <workItem from="1560413909834" duration="496000" />
+      <workItem from="1570473533386" duration="6978000" />
+      <workItem from="1570511564700" duration="3024000" />
+      <workItem from="1570562509971" duration="382000" />
+      <workItem from="1570562927604" duration="1348000" />
+      <workItem from="1570600224668" duration="1437000" />
+      <workItem from="1570642560394" duration="10667000" />
+      <workItem from="1570684970703" duration="3218000" />
+      <workItem from="1570771219485" duration="2661000" />
+      <workItem from="1570872904536" duration="130000" />
+      <workItem from="1570880537831" duration="654000" />
     </task>
     <task id="LOCAL-00001" summary="Added array and strings algorithms.">
       <created>1566860229371</created>
@@ -294,11 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1568230327130</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Working with linked list">
+      <created>1569217931779</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569217931779</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,10 +377,22 @@
     <MESSAGE value="Added 2D Array - DS" />
     <MESSAGE value="Finished 2D Array - DS" />
     <MESSAGE value="Added and finished - Left rotate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added and finished - Left rotate" />
+    <MESSAGE value="Working with linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with linked list" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algorithms/GraphChallenges.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm_challenge_easy_course$OneAwayTest.ic" NAME="OneAwayTest Coverage Results" MODIFIED="1566854182824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
