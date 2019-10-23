@@ -5,30 +5,32 @@ import org.junit.Test;
 
 public class BinarySearchTreeTest {
 
-    BinarySearchTree binarySearchTree;
+    BinarySearchTree tree;
+    BinarySearchTreeChallenges binarySearchTreeChallenges;
 
     @Before
     public void setUp() throws Exception {
-        binarySearchTree = new BinarySearchTree();
+        tree = new BinarySearchTree();
+        binarySearchTreeChallenges = new BinarySearchTreeChallenges();
     }
 
     @Test
     public void add() {
-        binarySearchTree.add(6);
-        binarySearchTree.add(4);
-        binarySearchTree.add(9);
-        binarySearchTree.add(5);
-        binarySearchTree.add(2);
-        binarySearchTree.add(8);
-        binarySearchTree.add(12);
-        binarySearchTree.add(10);
-        binarySearchTree.add(14);
-        binarySearchTree.printTree(binarySearchTree.getRoot());
+        tree.add(6);
+        tree.add(4);
+        tree.add(9);
+        tree.add(2);
+        tree.add(5);
+        tree.add(8);
+        tree.add(8);
+        tree.add(12);
+        tree.add(10);
+        tree.add(14);
+        tree.printTree(tree.getRoot());
         System.out.println();
-        System.out.println(binarySearchTree.search(12).getData());
-        binarySearchTree.delete(12, binarySearchTree.getRoot());
-        binarySearchTree.delete(5, binarySearchTree.getRoot());
-        binarySearchTree.delete(8, binarySearchTree.getRoot());
-        binarySearchTree.printTree(binarySearchTree.getRoot());
+        binarySearchTreeChallenges.findAncestors(tree.getRoot(), 8);
+        System.out.println();
+        binarySearchTreeChallenges.findAncestors(tree.getRoot(), 14);
+
     }
 }

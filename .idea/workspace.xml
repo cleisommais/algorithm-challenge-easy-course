@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/tree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/tree/NodeTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/tree/BinarySearchTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/tree/BinarySearchTreeChallenges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/trie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/trie/TrieNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/trie/TrieNodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithms/tree/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/tree/BinarySearchTreeTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,17 +56,17 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/algorithms" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Tina" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.algorithms.trie" />
       <recent name="com.algorithms.tree" />
       <recent name="com.algorithms.utils.graph" />
       <recent name="com.algorithms.queue_stack" />
       <recent name="com.algorithms.utils" />
-      <recent name="com.algorithm.array_and_strings" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -98,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTreeTest.add">
+  <component name="RunManager" selected="JUnit.TrieNodeTest">
     <configuration name="BinarySearchTreeTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
@@ -125,21 +127,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithms.utils.graph" />
       <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.graph.GraphTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueStackChallengesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.queue_stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.queue_stack" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.queue_stack.QueueStackChallengesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,6 +164,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrieNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithms.trie" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.trie.TrieNodeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithm-challenge-easy-course" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -203,20 +205,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.QueueStackChallengesTest" />
       <item itemvalue="JUnit.QueueStackChallengesTest.testReverseKQueue" />
       <item itemvalue="JUnit.QueueStackChallengesTest.queueUsingStackTest" />
       <item itemvalue="JUnit.GraphTest" />
-      <item itemvalue="Maven.algorithm-challenge-easy-course" />
       <item itemvalue="JUnit.BinarySearchTreeTest.add" />
+      <item itemvalue="JUnit.TrieNodeTest" />
+      <item itemvalue="Maven.algorithm-challenge-easy-course" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrieNodeTest" />
         <item itemvalue="JUnit.BinarySearchTreeTest.add" />
         <item itemvalue="JUnit.GraphTest" />
         <item itemvalue="JUnit.QueueStackChallengesTest.queueUsingStackTest" />
         <item itemvalue="JUnit.QueueStackChallengesTest.testReverseKQueue" />
-        <item itemvalue="JUnit.QueueStackChallengesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +243,13 @@
       <workItem from="1570771219485" duration="2661000" />
       <workItem from="1570872904536" duration="130000" />
       <workItem from="1570880537831" duration="654000" />
-      <workItem from="1571634970984" duration="2442000" />
+      <workItem from="1571634970984" duration="2637000" />
+      <workItem from="1571654756106" duration="637000" />
+      <workItem from="1571687908211" duration="4325000" />
+      <workItem from="1571720537429" duration="2839000" />
+      <workItem from="1571756995757" duration="215000" />
+      <workItem from="1571772276079" duration="8394000" />
+      <workItem from="1571808011052" duration="2315000" />
     </task>
     <task id="LOCAL-00001" summary="Added array and strings algorithms.">
       <created>1566860229371</created>
@@ -327,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571635035401</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Working with BinarySearchTree">
+      <created>1571637594947</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571637594947</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -371,7 +386,8 @@
     <MESSAGE value="Finished 2D Array - DS" />
     <MESSAGE value="Added and finished - Left rotate" />
     <MESSAGE value="Working with linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with linked list" />
+    <MESSAGE value="Working with BinarySearchTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with BinarySearchTree" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -384,12 +400,30 @@
           <line>134</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algorithms/tree/BinarySearchTreeChallenges.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algorithms/trie/Trie.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((com.algorithms.trie.TrieNode[])((TrieNode)((Trie)this).root).children)[19]" custom="com.algorithms.trie.Trie,com.algorithms.trie.TrieNode[],com.algorithms.trie.TrieNode" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm_challenge_easy_course$OneAwayTest.ic" NAME="OneAwayTest Coverage Results" MODIFIED="1566854182824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.algorithm.array_and_strings.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/algorithm_challenge_easy_course$TrieNodeTest.ic" NAME="TrieNodeTest Coverage Results" MODIFIED="1571775549231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.algorithms.trie.*</FILTER>
     </SUITE>
   </component>
   <component name="masterDetails">
