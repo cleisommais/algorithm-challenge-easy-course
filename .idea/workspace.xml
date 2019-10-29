@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/tree/BinarySearchTreeChallenges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/trie/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/trie/TrieNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/trie/TrieNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/heap/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/ConsumeKeyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/KeyGeneratorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/URLShortener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/heap/HeapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithms/tree/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/tree/BinarySearchTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/NewYearChaos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/NewYearChaos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/NewYearChaosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/NewYearChaosTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,15 +62,15 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/algorithms" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Tina" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.algorithms.heap" />
       <recent name="com.algorithms.trie" />
       <recent name="com.algorithms.tree" />
       <recent name="com.algorithms.utils.graph" />
       <recent name="com.algorithms.queue_stack" />
-      <recent name="com.algorithms.utils" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -100,7 +104,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrieNodeTest">
+  <component name="RunManager" selected="JUnit.NewYearChaosTest">
+    <configuration name="URLShortener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.URLShortener" />
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySearchTreeTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
@@ -117,48 +134,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewYearChaosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.utils.graph.*" />
+          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.utils.graph" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.utils.graph.GraphTest" />
+      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.NewYearChaosTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueStackChallengesTest.queueUsingStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewYearChaosTest.minimumBribesCase06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.queue_stack.*" />
+          <option name="PATTERN" value="com.algorithms.array_and_strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.queue_stack" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.queue_stack.QueueStackChallengesTest" />
-      <option name="METHOD_NAME" value="queueUsingStackTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueStackChallengesTest.testReverseKQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.queue_stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.queue_stack" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.queue_stack.QueueStackChallengesTest" />
-      <option name="METHOD_NAME" value="testReverseKQueue" />
+      <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.NewYearChaosTest" />
+      <option name="METHOD_NAME" value="minimumBribesCase06" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,20 +206,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.QueueStackChallengesTest.testReverseKQueue" />
-      <item itemvalue="JUnit.QueueStackChallengesTest.queueUsingStackTest" />
-      <item itemvalue="JUnit.GraphTest" />
+      <item itemvalue="Application.URLShortener" />
       <item itemvalue="JUnit.BinarySearchTreeTest.add" />
       <item itemvalue="JUnit.TrieNodeTest" />
+      <item itemvalue="JUnit.NewYearChaosTest" />
       <item itemvalue="Maven.algorithm-challenge-easy-course" />
+      <item itemvalue="JUnit.NewYearChaosTest.minimumBribesCase06" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NewYearChaosTest" />
+        <item itemvalue="JUnit.NewYearChaosTest.minimumBribesCase06" />
+        <item itemvalue="Application.URLShortener" />
         <item itemvalue="JUnit.TrieNodeTest" />
         <item itemvalue="JUnit.BinarySearchTreeTest.add" />
-        <item itemvalue="JUnit.GraphTest" />
-        <item itemvalue="JUnit.QueueStackChallengesTest.queueUsingStackTest" />
-        <item itemvalue="JUnit.QueueStackChallengesTest.testReverseKQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +250,12 @@
       <workItem from="1571720537429" duration="2839000" />
       <workItem from="1571756995757" duration="215000" />
       <workItem from="1571772276079" duration="8394000" />
-      <workItem from="1571808011052" duration="2315000" />
+      <workItem from="1571808011052" duration="2518000" />
+      <workItem from="1571859811743" duration="3447000" />
+      <workItem from="1571941573015" duration="619000" />
+      <workItem from="1572247151345" duration="14359000" />
+      <workItem from="1572329227524" duration="3360000" />
+      <workItem from="1572374715134" duration="8155000" />
     </task>
     <task id="LOCAL-00001" summary="Added array and strings algorithms.">
       <created>1566860229371</created>
@@ -342,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571637594947</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Working with tries, Find All of the Words in a Trie">
+      <created>1571810440282</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571810440282</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -387,7 +400,8 @@
     <MESSAGE value="Added and finished - Left rotate" />
     <MESSAGE value="Working with linked list" />
     <MESSAGE value="Working with BinarySearchTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with BinarySearchTree" />
+    <MESSAGE value="Working with tries, Find All of the Words in a Trie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with tries, Find All of the Words in a Trie" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -402,13 +416,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/algorithms/tree/BinarySearchTreeChallenges.java</url>
-          <line>47</line>
+          <line>46</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/algorithms/trie/Trie.java</url>
-          <line>59</line>
+          <line>57</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algorithms/utils/URLShortener.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
