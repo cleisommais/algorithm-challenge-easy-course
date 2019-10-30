@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/hashmaps/RansomNote.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/heap/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/sorting/BubbleSort.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/ConsumeKeyService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/KeyGeneratorService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/URLShortener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/hashmaps/RansomNoteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/heap/HeapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/sorting/BubbleSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +253,7 @@
       <workItem from="1572329227524" duration="3360000" />
       <workItem from="1572374715134" duration="10163000" />
       <workItem from="1572416061989" duration="2557000" />
-      <workItem from="1572459540801" duration="2655000" />
+      <workItem from="1572459540801" duration="2916000" />
     </task>
     <task id="LOCAL-00001" summary="Added array and strings algorithms.">
       <created>1566860229371</created>
@@ -366,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572383755232</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="RamsomNoteTest and BubbleSort test">
+      <created>1572462718951</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1572462718951</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -413,7 +414,8 @@
     <MESSAGE value="Working with BinarySearchTree" />
     <MESSAGE value="Working with tries, Find All of the Words in a Trie" />
     <MESSAGE value="NewYearChaos test" />
-    <option name="LAST_COMMIT_MESSAGE" value="NewYearChaos test" />
+    <MESSAGE value="RamsomNoteTest and BubbleSort test" />
+    <option name="LAST_COMMIT_MESSAGE" value="RamsomNoteTest and BubbleSort test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
