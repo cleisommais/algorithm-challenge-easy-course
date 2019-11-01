@@ -10,25 +10,30 @@ import java.util.List;
 public class LuckBalance {
 
     public int luckBalance(int k, int[][] contests) {
-        if (k == 0 || (contests.length == 0 || contests[0].length == 0))
-            throw new IllegalArgumentException("The arguments k and contests must be different of the zero length!");
+        if ((contests.length == 0 || contests[0].length == 0))
+            throw new IllegalArgumentException("The Contests must be different of the zero length!");
         int totalLuckBalance = 0;
-        List<Integer> tempList = new ArrayList<>();
+        List<Integer> listImportant = new ArrayList<>();
+        List<Integer> listNotImportant = new ArrayList<>();
         for (int i = 0; i < contests.length; i++) {
             int luck = contests[i][0];
             int important = contests[i][1];
-            if (important == 1 && luck == 1) {
-                tempList.add(luck);
+            if (important == 1) {
+                listImportant.add(luck);
             } else {
-                totalLuckBalance += luck;
+                listNotImportant.add(luck);
             }
         }
-        Collections.sort(tempList);
-        for (int i = 0; i < tempList.size(); i++) {
+        Collections.sort(listImportant);
+        Collections.reverse(listImportant);
+        for (int i = 0; i < listNotImportant.size(); i++) {
+            totalLuckBalance += listNotImportant.get(i);
+        }
+        for (int i = 0; i < listImportant.size(); i++) {
             if (i < k)
-                totalLuckBalance -= tempList.get(i);
+                totalLuckBalance += listImportant.get(i);
             else
-                totalLuckBalance += tempList.get(i);
+                totalLuckBalance -= listImportant.get(i);
         }
         return totalLuckBalance;
     }
