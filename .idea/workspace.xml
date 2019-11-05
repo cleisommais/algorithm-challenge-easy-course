@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/heap/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/ConsumeKeyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/KeyGeneratorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/utils/URLShortener.java" afterDir="false" />
+    <list default="true" id="b24c6cf9-cb14-4e4f-8dcc-d0c84ef21125" name="Default Changelist" comment="RamsomNoteTest and BubbleSort test">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/input04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/input13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/ArrayManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithms/array_and_strings/ArrayManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/ArrayManipulationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/algorithms/array_and_strings/ArrayManipulationTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +37,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="MavenImportPreferences">
@@ -54,17 +58,20 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/algorithms" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Tina" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.algorithms.array_and_strings" />
+      <recent name="com.algorithms.threads" />
       <recent name="com.algorithms.sorting" />
       <recent name="com.algorithms.hashmaps" />
       <recent name="com.algorithms.heap" />
-      <recent name="com.algorithms.trie" />
-      <recent name="com.algorithms.tree" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -74,10 +81,13 @@
       <recent name="com.algorithms.linked_list" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\criti\Documents\algorithm-challenge-easy-course\src\resources" />
       <recent name="C:\Users\cleis\OneDrive\Documents\Estia courses projects\algorithm-challenge-easy-course\src\test\java\com\algorithm\array_and_strings" />
       <recent name="C:\Users\cleis\OneDrive\Documents\Estia courses projects\algorithm-challenge-easy-course\src\test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\criti\Documents\algorithm-challenge-easy-course\src\resources" />
+      <recent name="C:\Users\criti\Documents\algorithm-challenge-easy-course\src\test\java\com\algorithms\array_and_strings" />
       <recent name="C:\Users\cxf111\Cleison_development_env\projects\algorithm-challenge-easy-course" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -98,23 +108,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleSortTest">
-    <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArrayManipulationTest">
+    <configuration name="Demonstration3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.threads.Demonstration3" />
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.sorting.*" />
+          <option name="PATTERN" value="com.algorithms.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.sorting" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.sorting.BubbleSortTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewYearChaosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demonstration4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.threads.Demonstration4" />
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demonstration5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.threads.Demonstration5" />
+      <module name="algorithm-challenge-easy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayManipulationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +157,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.NewYearChaosTest" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.ArrayManipulationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewYearChaosTest.minimumBribesCase06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumSwaps2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-challenge-easy-course" />
       <extension name="coverage">
         <pattern>
@@ -138,40 +172,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithms.array_and_strings" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.NewYearChaosTest" />
-      <option name="METHOD_NAME" value="minimumBribesCase06" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RansomNoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.hashmaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.hashmaps" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.hashmaps.RansomNoteTest" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array_and_strings.MinimumSwaps2Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RansomNoteTest.checkMagazine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm-challenge-easy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.hashmaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithms.hashmaps" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.hashmaps.RansomNoteTest" />
-      <option name="METHOD_NAME" value="checkMagazine" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,20 +204,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.NewYearChaosTest" />
-      <item itemvalue="JUnit.NewYearChaosTest.minimumBribesCase06" />
-      <item itemvalue="JUnit.RansomNoteTest.checkMagazine" />
-      <item itemvalue="JUnit.RansomNoteTest" />
-      <item itemvalue="JUnit.BubbleSortTest" />
+      <item itemvalue="Application.Demonstration3" />
+      <item itemvalue="Application.Demonstration4" />
+      <item itemvalue="Application.Demonstration5" />
+      <item itemvalue="JUnit.MinimumSwaps2Test" />
+      <item itemvalue="JUnit.ArrayManipulationTest" />
       <item itemvalue="Maven.algorithm-challenge-easy-course" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BubbleSortTest" />
-        <item itemvalue="JUnit.RansomNoteTest" />
-        <item itemvalue="JUnit.RansomNoteTest.checkMagazine" />
-        <item itemvalue="JUnit.NewYearChaosTest" />
-        <item itemvalue="JUnit.NewYearChaosTest.minimumBribesCase06" />
+        <item itemvalue="JUnit.ArrayManipulationTest" />
+        <item itemvalue="JUnit.MinimumSwaps2Test" />
+        <item itemvalue="Application.Demonstration5" />
+        <item itemvalue="Application.Demonstration4" />
+        <item itemvalue="Application.Demonstration3" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +369,35 @@
       <option name="project" value="LOCAL" />
       <updated>1572462718951</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Finished the Luck Balance test.">
+      <created>1572640924951</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1572640924951</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Thread course.">
+      <created>1572895353411</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1572895353411</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Array Manipulation, minimum swap possible.">
+      <created>1572898466171</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1572898466171</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Complete the Array Manipulation test">
+      <created>1572943565446</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1572943565446</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -415,7 +445,11 @@
     <MESSAGE value="Working with tries, Find All of the Words in a Trie" />
     <MESSAGE value="NewYearChaos test" />
     <MESSAGE value="RamsomNoteTest and BubbleSort test" />
-    <option name="LAST_COMMIT_MESSAGE" value="RamsomNoteTest and BubbleSort test" />
+    <MESSAGE value="Finished the Luck Balance test." />
+    <MESSAGE value="Thread course." />
+    <MESSAGE value="Array Manipulation, minimum swap possible." />
+    <MESSAGE value="Complete the Array Manipulation test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete the Array Manipulation test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -463,20 +497,5 @@
     <SUITE FILE_PATH="coverage/algorithm_challenge_easy_course$TrieNodeTest.ic" NAME="TrieNodeTest Coverage Results" MODIFIED="1571775549231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.algorithms.trie.*</FILTER>
     </SUITE>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="Copyright.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
